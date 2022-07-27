@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&family=Nunito:wght@200;300;400;700&family=Open+Sans:wght@300;500;600;700&family=Red+Rose:wght@300&family=Secular+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+}
+
+
+body {
+    background: url(../images/rm405-c04b_1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav-bar {
+    width: 100%;
+    height: 20vh;
+ display: flex;
+ justify-content:space-between;
+
+    align-items: center;
+   
+    
+}
+
+.logo {
+  margin-left: 40px;
+}
+.item-lists {
+    display: flex;
+    list-style: none;
+   
+
+}
+
+.item-list {
+    font-weight: 600;
+    color: #fff;
+    margin-right: 10px;
+    margin-left: 70px;
+    padding-left: 50px;    
+}
+
+.call-detail {
+ display: flex;
+margin-right: 50px;
+}
+
+.call-detail > div {
+    margin-left: 0.4rem;
+}
+
+.call-detail > div > p {
+    font-weight: 600;
+    color: #fff
+}
+
+.call-detail > div:nth-child(1) > img {
+    filter: brightness(0) invert(1);
+}
+
+.call-detail > div:nth-child(2) > a {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+.line{
+    width: 75%;
+    height: 0.1rem;
+    background-color: #fff;
+    margin-top: 0px;
+  
+    margin-left: 350px;
+}
+
+
+.main-section {
+    padding: 2rem 4rem;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+
+.left-section {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 5rem;
+}
+.left-section h1 {
+    font-size: 4.5rem;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.left-section button {
+    margin-top: 3rem;
+    padding: 0.7rem 2rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    background: transparent;
+    font-weight: 600;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 2rem;
+}
+.card img {
+    background-color: #fff ;
+    width: 40%;
+    padding: 0.4rem 1.8rem;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+}
+
+.card p {
+    color: #fff;
+    opacity: 1;
+    font-size: 0.9rem;
+} 
+.right-section {
+    flex: 0.5;
+    position: relative;
+}
+
+.card {
+    width: 80%;
+    background: rgba(255,255,255,0.1);
+    padding: 1.5rem 2rem;
+    position: relative;
+}
+.right-section .card:nth-child(2) {
+    position: absolute;
+    top: 60%;
+    left: -50%;
+}
+.card:nth-child(1)::after {
+    content: '';
+    bottom: -40%;
+    right: 20%;
+    position: absolute;
+    width: 0.1rem;
+    height: 40%;
+    background: rgba(255,255,255,0.6);
+}
+.card:nth-child(1)::before {
+    content: '';
+    bottom: -40%;
+    right: 18%;
+    position: absolute;
+    width: 5%;
+    height: 10%;
+    border-radius: 2rem;
+    background: #fff;
+}
+.card:nth-child(2)::after {
+    content: '';
+    top: 35%;
+    right: -20%;
+    position: absolute;
+    width: 20%;
+    height: 0.1rem;
+    background: rgba(255,255,255,0.6);
+}
+
+.card:nth-child(2)::before {
+    content: '';
+    top: 30%;
+    right: -25%;
+    position: absolute;
+    width: 5%;
+    height: 10%;
+    border-radius: 2rem;
+    background: #fff;
+}
+
