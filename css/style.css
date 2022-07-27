@@ -108,7 +108,14 @@ margin-right: 50px;
     border: 2px solid #fff;
     border-radius: 2rem;
 }
-.card img {
+.card1 img {
+    background-color: #fff ;
+    width: 40%;
+    padding: 0.4rem 1.8rem;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+}
+.card2 img {
     background-color: #fff ;
     width: 40%;
     padding: 0.4rem 1.8rem;
@@ -116,28 +123,39 @@ margin-right: 50px;
     margin-bottom: 1rem;
 }
 
-.card p {
+.card1 p {
     color: #fff;
     opacity: 1;
     font-size: 0.9rem;
 } 
+.card2 p{
+    color: #fff;
+    opacity: 1;
+    font-size: 0.9rem; 
+}
 .right-section {
     flex: 0.5;
     position: relative;
 }
-
-.card {
+ .card1 {
     width: 80%;
     background: rgba(255,255,255,0.1);
     padding: 1.5rem 2rem;
     position: relative;
 }
-.right-section .card:nth-child(2) {
+.card2 {
+    width: 80%;
+    background: rgba(255,255,255,0.1);
+    padding: 1.5rem 2rem;
+    position: relative;
+}
+
+/* .right-section .card:nth-child(2) {
     position: absolute;
     top: 60%;
     left: -50%;
-}
-.card:nth-child(1)::after {
+} */
+/* .card:nth-child(1)::after {
     content: '';
     bottom: -40%;
     right: 20%;
@@ -175,5 +193,121 @@ margin-right: 50px;
     height: 10%;
     border-radius: 2rem;
     background: #fff;
+}  */
+
+/* .card1{
+    width: 80%;
+    background: rgba(255,255,255,0.1);
+    padding: 1.5rem 2rem;
+    position: relative; 
+}
+.card2{
+    width: 80%;
+    background: rgba(255,255,255,0.1);
+    padding: 1.5rem 2rem;
+    position: relative;
+}
+.right-section .card2 {
+    position: absolute;
+    top: 60%;
+    left: -50%;
+}
+.card1::after {
+    content: '';
+    bottom: -40%;
+    right: 20%;
+    position: absolute;
+    width: 0.1rem;
+    height: 40%;
+    background: rgba(255,255,255,0.6);
+}
+.card1::before {
+    content: '';
+    bottom: -40%;
+    right: 18%;
+    position: absolute;
+    width: 5%;
+    height: 10%;
+    border-radius: 2rem;
+    background: #fff;
+}
+.card2::after{
+    content: '';
+    top: 35%;
+    right: -20%;
+    position: absolute;
+    width: 20%;
+    height: 0.1rem;
+    background: rgba(255,255,255,0.6);
+}
+.card2::before {
+    content: '';
+    top: 30%;
+    right: -25%;
+    position: absolute;
+    width: 5%;
+    height: 10%;
+    border-radius: 2rem;
+    background: #fff;
+}
+.right-section .card1 {
+    position: absolute;
+    top: -20%;
+    left: -50%;
+  
+} */
+.right-section .card1 {
+    position: absolute;
+    top: 60%;
+    left: -50%;
+}
+.card2::after{
+    content: '';
+    bottom: -40%;
+    right: 20%;
+    position: absolute;
+    width: 0.1rem;
+    height: 40%;
+    background: rgba(255,255,255,0.6);
+}
+.card2::before {
+    content: '';
+    bottom: -40%;
+    right: 18%;
+    position: absolute;
+    width: 5%;
+    height: 10%;
+    border-radius: 2rem;
+    background: #fff;
+}
+.card1::after {
+    content: '';
+    top: 35%;
+    right: -20%;
+    position: absolute;
+    width: 20%;
+    height: 0.1rem;
+    background: rgba(255,255,255,0.6);
 }
 
+.card1::before {
+    content: '';
+    top: 30%;
+    right: -25%;
+    position: absolute;
+    width: 5%;
+    height: 10%;
+    border-radius: 2rem;
+    background: #fff;
+}
+.card1 p {
+    color: #fff;
+    opacity: 1;
+    font-size: 0.9rem;
+}
+.card2 p {
+    color: #fff;
+    opacity: 1;
+    font-size: 0.9rem;
+}
+ 
